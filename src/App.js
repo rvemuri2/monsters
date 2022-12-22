@@ -3,6 +3,7 @@ import "./App.css";
 import CardList from "./components/card-list/card-list.component.jsx";
 import SearchBox from "./components/search-box/searchbox-component.jsx";
 const App = () => {
+  console.log("rendered");
   const [searchField, setSearchField] = useState(""); // [value, setValue]
   const [monsters, setMonsters] = useState([]);
   const [fm, setfm] = useState([monsters]);
